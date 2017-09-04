@@ -1,12 +1,15 @@
 /*General Rules*/
+
+p, label{
+    font-family: 'Open Sans', sans-serif;    
+}
+
 .background
 {
     background-repeat : no-repeat!important;
     background-position: center!important;
     background-size: cover!important;
     background-position: 50% 50%;
-
-    font-family: 'Raleway', sans-serif;
 }
 
 .title
@@ -32,10 +35,7 @@
     font-size: 36px;
 }
 
-@font-face {
-    font-family: 'CavierDreams';
-    src: url('../fonts/CavierDreams.ttf');
-}
+
 
 .boxes
 {
@@ -50,8 +50,6 @@
     /*font-family: 'Maven Pro', sans-serif;*/
     opacity:1;
     color: white;
-    font-family: 'CavierDreams';
-    src: url('CavierDreams.ttf');
     font-size: 19px;
     font-weight: lighter;
 }
